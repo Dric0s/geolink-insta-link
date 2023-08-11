@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .container{
-    background-image: url(background3.svg);
+    background-image: url(background4.svg);
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -52,7 +54,7 @@
 
 .button span img{
     max-width: 16px;
-    margin-top: 3px;
+    margin-top: 8px;
     margin-right: 10px;
 }
 

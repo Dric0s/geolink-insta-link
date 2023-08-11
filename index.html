@@ -4,25 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="container">
-            <div class="header-container">
-                <div class="photo-container"></div>
+        <div class="header-container">
+            <div class="photo-container"></div>
+        </div>
+
+        <div class="content-container" id="mainContent">
+            <div class="button" id="instagramButton" onclick="">
+                <span><img src="instagram.png" alt=""></span>
+                Instagram
             </div>
 
-            <div class="content-container">
-                <div class="button">
-                    <span><img src="instagram.png" alt=""></span>
-                    Instagram
-                </div>
-
-                <div class="button">
-                    <span><img src="whatsapp.png" alt=""></span>
-                    Fazer pedido
-                </div>
+            <div class="button" id="pedidoButton">
+                <span><img src="whatsapp.png" alt=""></span>
+                Fazer pedido
             </div>
+        </div>
+
+        <div class="content-container" id="zapContent" style="display: none;">
+            <div class="button" id="enviarZap1">
+                <span><img src="whatsapp.png" alt=""></span>
+                Falar com a Geovana
+            </div>
+
+            <div class="button" id="enviarZap2">
+                <span><img src="whatsapp.png" alt=""></span>
+                Falar com a Mikaelly
+            </div>
+
+            <div class="button" id="voltarButton">
+                Voltar
+            </div>
+        </div>
     </div>
+
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
