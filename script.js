@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     instagramButton.addEventListener('click', function(){
-        window.open("https://instagram.com/geo.lly", "_blank")
+        window.open("https://instagram.com/geo.lly?igshid=MmU2YjMzNjRlOQ==", "_blank")
     })
 
     if (enviarZap1 && enviarZap2 && voltarButton) {
